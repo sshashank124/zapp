@@ -1,0 +1,13 @@
+[package]
+name = "zapp"
+version = "0.1.0"
+authors = ["Shashank Singh <sshashank124@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+dirs = "*"
+lazy_static = "*"
+serde = { version = "*", features = ["derive"] }
+serde_yaml = "*"
+shellexpand = "*"
+tera = "*"
